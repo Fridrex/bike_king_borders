@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bike King Borders is a bike shop located in Edinburgh, offering a wide range of mountain and kids bikes, hire, service, and bike trails.">
+    <meta name="keywords" content="bike shop, mountain bikes, kids bikes, hire, service, bike trails, Edinburgh">
+    <meta name="author" content="Bike King Borders">
+    <meta name="robots" content="index, follow">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Bike King Borders</title>
+    <link rel="stylesheet" href="css/reset/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="rss/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="rss/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="rss/favicon-16x16.png">
+    <link rel="manifest" href="rss/site.webmanifest">
+    <link rel="mask-icon" href="rss/safari-pinned-tab.svg" color="#5bbad5">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="/rss/logo.png" alt="biker on the bike"></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="pages/bestsellers.html" id="bsa">Best Sellers</a></li>
+                    <li><a href="pages/bikes.html">Mountain and Kids Bikes</a></li>
+                    <li><a href="pages/hire.html">Hire</a></li>
+                    <li><a href="pages/service.html">Service</a></li>
+                    <li><a href="pages/trails.html">Bike Trails</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="special">
+                    <h2 id="h2-spec">Special Offer</h2>
+                    <p>Get 10% off your first purchase</p>
+                    <p>Use code: <span id="code">BIKEKING10</span></p>
+                    <img src="rss/mountain-bicycle.png" alt="random images">
+                </div>
+                <div class="location">
+                    <h2 id="h2-loc">Our Location</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d664.0051942979793!2d-3.181943618258243!3d55.95910599527597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c78af9372ad9%3A0x674a0b410a3575ab!2s60%20Windsor%20St%2C%20Edinburgh%20EH7%205JX!5e0!3m2!1sen!2suk!4v1697575410328!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </main>
+        <div class="tripadv">
+            <a href="https://www.tripadvisor.com" target="_blank" id="tripadvisor-link">Visit us on TripAdvisor</a>
+        </div>
+        <footer>
+            <p class="sub-text">Subscribe to our newsletter:</p>
+            <div class="subs">
+                <form class="subscription">
+                    <input class="add-email" id="add-email" type="email" placeholder="subscribe@me.now">
+                    <button class="submit-email" type="button">
+                      <span class="before-submit">Subscribe</span>
+                      <span class="after-submit">Thank you for subscribing!</span>
+                     </button>
+                </form>
+            </div>
+            <div class="contact">
+                <p>Our address is:<br> 
+                    <span id="address-span">60 Windsor St
+                        EDINBURGH
+                        EH7 5JX</span></p>
+                <p>Opening hours: <br>
+                    <span id="opening-hours">Mon-Fri: 9:00-18:00 <br>
+                    Sat: 10:00-16:00</span>
+                </p>
+                <p>Contact us:
+                    <span><a href="tel:+441314960385" id="phone">+44 131 496 0385</a></span> <br>
+                    <span><a href="mailto:bikekingsborders@yahoo.com" id="email">bikekingsborders@yahoo.com</a></span>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.querySelector('.submit-email').addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        document.querySelector('.subscription').classList.add('done');
+        });
+    </script>
+</body>
+</html>

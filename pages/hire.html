@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike King Borders</title>
+    <link rel="stylesheet" href="../css/reset/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../rss/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../rss/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../rss/favicon-16x16.png">
+    <link rel="manifest" href="../rss/site.webmanifest">
+    <link rel="mask-icon" href="../rss/safari-pinned-tab.svg" color="#5bbad5">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="../index.html"><img src="/rss/logo.png" alt="biker on the bike"></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="bestsellers.html" id="bsa">Best Sellers</a></li>
+                    <li><a href="bikes.html">Mountain and Kids Bikes</a></li>
+                    <li><a href="hire.html">Hire</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="trails.html">Bike Trails</a></li>
+                </ul>
+            </div>
+        </header>
+        <h1 class="hire-h1">Hire a bike!</h1>
+        <main class="main-hire">
+            <div class="hire-table">
+                <div class="cell">Hybrid bike hire</div>
+                <div class="cell">Mountain bike hire</div>
+                <div class="cell">Kids bike hire</div>
+                <div class="cell">£29/day</div>
+                <div class="cell">£49/day</div>
+                <div class="cell">£19/day</div>
+                <div class="cell">£99/week</div>
+                <div class="cell">£149/week</div>
+                <div class="cell">£69/week</div>
+            </div>
+        </main>
+        <footer>
+            <p class="sub-text">Subscribe to our newsletter:</p>
+            <div class="subs">
+                <form class="subscription">
+                    <input class="add-email" id="add-email" type="email" placeholder="subscribe@me.now">
+                    <button class="submit-email" type="button">
+                      <span class="before-submit">Subscribe</span>
+                      <span class="after-submit">Thank you for subscribing!</span>
+                     </button>
+                </form>
+            </div>
+            <div class="contact">
+                <p>Our address is:<br> 
+                    <span id="address-span">60 Windsor Road
+                        EDINBURGH
+                        EH76 1VC</span></p>
+                <p>Opening hours: <br>
+                    <span id="opening-hours">Mon-Fri: 9:00-18:00 <br>
+                    Sat: 10:00-16:00</span>
+                </p>
+                <p>Contact us:
+                    <span><a href="tel:+441314960385" id="phone">+44 131 496 0385</a></span> <br>
+                    <span><a href="mailto:bikekingsborders@yahoo.com" id="email">bikekingsborders@yahoo.com</a></span>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.querySelector('.submit-email').addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        document.querySelector('.subscription').classList.add('done');
+        });
+    </script>
+</body>
+</html>
