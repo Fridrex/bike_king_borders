@@ -313,7 +313,7 @@ main {
 
 .imgs-gallery {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -371,7 +371,7 @@ figcaption {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   width: 1920px;
 }
 
@@ -436,4 +436,8 @@ figcaption {
   margin: 10px;
   border: 1px solid var(--white);
   border-radius: 5px;
+}
+
+@media screen and (max-width: 920px) {
+  
 }
