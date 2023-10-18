@@ -15,8 +15,6 @@
 /* Top level rules */
 
 body {
-  margin: 0;
-  padding: 0;
   background-image: url('../rss/bicycle-1920.png');
   background-size: cover;
 }
@@ -439,5 +437,8 @@ figcaption {
 }
 
 @media screen and (max-width: 920px) {
-  
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
