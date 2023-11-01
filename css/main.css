@@ -823,7 +823,6 @@ figcaption {
   
   .trails-gallery {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 10px;
