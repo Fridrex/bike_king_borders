@@ -32,7 +32,7 @@ outdoors
 ♦ +Appeal to a wide target audience
 ♦ +To work on all modern browsers
 ♦ +Be easy to use
-♦ Be responsive and work on various devices
+♦ +Be responsive and work on various devices
 
 ### Website functionality and content Completed
 
