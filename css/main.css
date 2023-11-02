@@ -1039,4 +1039,13 @@ figcaption {
     margin-bottom: 250px;
   }
 
+  .tripadv {
+    display: none;
+  }
+
+  .trails-cont {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
 }
